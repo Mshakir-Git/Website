@@ -1,0 +1,74 @@
+#player{
+    position: absolute;
+    left:1px;
+    top:300px;
+    width: 60px;
+    height:60px;
+    background-image: url("img/idle1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#controls{
+    display: flex;
+    justify-content:space-evenly;
+    width:100%;
+    position: absolute;
+    top:560px;
+}
+body{
+    background-color: rgb(12, 12, 12);
+}
+#game{
+    /*background: linear-gradient(rgb(0, 225, 255),rgb(143, 71, 71));
+    */
+    background-image: url("img/bgdesert.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100vw;
+    height:520px;
+    margin:-9px;
+}
+button{
+    width:70px;
+    height:70px;
+    border-radius: 70px;
+    border: 0px;
+}
+#layers{
+    position: absolute;
+    height:520px;
+    width: 100vw;
+    overflow: hidden;
+}
+.pipe{
+    height: 70px;
+}
+#pipe{
+    background: linear-gradient(#0ac324,#067816);  
+}
+.popDown{
+    position: absolute;
+    top:-40px;
+    font-size: 20px;
+    font-family: monospace;
+    min-width:200px;
+    min-height: 30px;
+    padding:5px;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+    text-align: center;
+    transition: top 1s;
+
+}
+.sign{
+    width: 100px;
+    height:80px;
+    background-image: url("img/sign.png");
+    background-size: cover;
+    position: absolute;
+    top:-100%;
+    text-align: center;
+    font-family: monospace;
+    padding-top: 10px;
+}
