@@ -72,3 +72,10 @@ button{
     font-family: monospace;
     padding-top: 10px;
 }
+body::after{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    content:url("img/sign.png") url("img/idle2.png") url("img/run2.png") url("img/run3.png") url("img/run4.png")
+}
