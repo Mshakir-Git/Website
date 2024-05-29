@@ -105,6 +105,16 @@
 
         setTimeout(()=>{setPopDown("Welcome.")},100) 
 
+        //keycontrols
+        window.onkeydown=(key)=>{
+            if(key.code=="KeyA"||key.code=="ArrowLeft"){direction=1}
+            if(key.code=="KeyD"||key.code=="ArrowRight"){direction=-1}
+        }
+        
+        window.onkeyup=(key)=>{
+            direction=0
+        }
+
     </script>
 </body>
 </html>
